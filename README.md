@@ -204,7 +204,6 @@ Total	16000	4000	 	 	 	 	0.064 = weak predictive power
  
 
 fpr, tpr, thresholds = roc_curve(df_actual_predicted_probs['loan_data_targets_test'], df_actual_predicted_probs['y_hat_test_proba'])
-# Here we store each of the three arrays in a separate variable. 
  
 Interpretation	Area under the curve
 Bad	50-60%
